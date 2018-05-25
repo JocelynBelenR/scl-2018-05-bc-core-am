@@ -1,17 +1,18 @@
 /* Acá va tu código */
  body { 
     background-color: rgb(62, 231, 189); /* color de fondo */
+  
   } 
 
   .titular {
     background-color: rgb(255, 131, 152);
-      display: inline-block; /*tipo de caja: en linea y por bloque */
-      width: 1280px;  /*ancho de caja */
-      padding: 25px;  /*relleno, espacio libre entre contenido */
-      margin: 10px;
-      text-align: center;
-      color: white;
-      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: inline-block; /*tipo de caja: en linea y por bloque */
+    width: 1280px;  /*ancho de caja */
+    padding: 25px;  /*relleno, espacio libre entre contenido */
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
   }
 
   .bajada {
@@ -46,8 +47,11 @@
    }
 
    #puntos {
-    /*background-color: rgb(27, 230, 179);*/
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
    }
+
+   div {
+    text-align: center;
+  }

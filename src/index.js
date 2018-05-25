@@ -2,9 +2,11 @@
 
 //Boton instrucciones
 var btn = document.getElementById("button-brb");
+
 //Texto detallado
 var txt = document.getElementById ("puntos");
 
+//Click del Boton e instrucciones
 btn.addEventListener('click', function(){
     txt.innerHTML = "<p> Aqui va detallada cada instruccion </p>";
 })
