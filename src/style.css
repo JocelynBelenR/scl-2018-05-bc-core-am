@@ -1,30 +1,53 @@
 /* Acá va tu código */
  body { 
-    background-color: paleturquoise; /* color de fondo */
+    background-color: rgb(62, 231, 189); /* color de fondo */
   } 
 
   .titular {
-      background-color: pink; 
-      display: inline-block;
-      width: 1300px;
-      padding: 25px;
+    background-color: rgb(255, 131, 152);
+      display: inline-block; /*tipo de caja: en linea y por bloque */
+      width: 1280px;  /*ancho de caja */
+      padding: 25px;  /*relleno, espacio libre entre contenido */
+      margin: 10px;
       text-align: center;
       color: white;
       font-family: Verdana, Geneva, Tahoma, sans-serif; 
   }
 
   .bajada {
-    background-color: rgb(250, 167, 181);
+    background-color: rgb(32, 211, 166);
     display: inline-block;
-    width: 1300px;
+    width: 1280px; 
     padding: 25px;
-    margin-top: 10px;
+    margin: 5px 10px;
     text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
+  .leer {
+    background-color: rgb(255, 131, 152);
+    color: white;
+    padding: 5px;
+    margin: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+
   #instrucciones {
     text-align: center;
    }
-    
+  
+   #button-brb {
+    color: rgb(27, 182, 135);
+    padding: 10px;  
+    margin: 10px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   }
+
+   #puntos {
+    /*background-color: rgb(27, 230, 179);*/
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   }
