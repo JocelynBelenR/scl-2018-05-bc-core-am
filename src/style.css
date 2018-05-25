@@ -26,14 +26,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .leer {
-    background-color: rgb(255, 131, 152);
-    color: white;
-    padding: 5px;
-    margin: 5px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  }
-
   #instrucciones {
     text-align: center;
    }
@@ -52,6 +44,29 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
    }
 
-   div {
+   #password {
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+
+   .cuadro-uno{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 20px;
+  }
+
+  #send-uno {
+    color: rgb(27, 182, 135); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+   }
+
+  .cuadro-dos{
     text-align: center;
   }
