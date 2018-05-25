@@ -1,1 +1,25 @@
 /* Acá va tu código */
+ body {
+    background-color: paleturquoise;
+  }
+
+  .titular {
+      background-color: pink;
+      display: inline-block;
+      width: 1300px;
+      padding: 25px;
+      text-align: center;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+
+  .bajada {
+    background-color: rgb(250, 167, 181);
+    display: inline-block;
+    width: 1300px;
+    padding: 25px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
