@@ -1,11 +1,11 @@
 /* Acá va tu código */
  body { 
-    background-color: rgb(62, 231, 189); /* color de fondo */
+    background-color: rgb(62,231,189); /* color de fondo */
   
   } 
 
   .titular {
-    background-color: rgb(255, 131, 152);
+    background-color: rgb(255,131,152);
     display: inline-block; /*tipo de caja: en linea y por bloque */
     width: 1280px;  /*ancho de caja */
     padding: 25px;  /*relleno, espacio libre entre contenido */
@@ -16,7 +16,7 @@
   }
 
   .bajada {
-    background-color: rgb(32, 211, 166);
+    background-color: rgb(32,211,166);
     display: inline-block;
     width: 1280px; 
     padding: 25px;
@@ -31,7 +31,7 @@
    }
   
    #button-brb {
-    color: rgb(27, 182, 135);
+    color: rgb(27,182,135);
     padding: 10px;  
     margin: 10px;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -54,10 +54,12 @@
   }
 
    .cuadro-uno{
-    text-align: center;
-    padding: 20px;
+    color: white;
+    text-align: left;
+    padding : 20px;
     padding-bottom: 50px;
     margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   #send-uno {
@@ -65,8 +67,22 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     text-align: center;
+    position: absolute;
+   }
+
+   #input-textuno {
+    background-color: rgb(248, 243, 166);
    }
 
   .cuadro-dos{
-    text-align: center;
+    color: white;
+    text-align: left;
+    padding : 20px;
+    padding-bottom: 50px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  #input-txtdos {
+    background-color: rgb(248,243,166);
+   }
