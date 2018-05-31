@@ -12,22 +12,21 @@
   <h3 class="bajada">En esta página podrás escribir tu mensaje y este será cifrado o descifrado según el código Cesar</h3>
 
  <!-- boton para instrucciones -->
- <Section id= "instrucciones">
-  <button id="button-brb">INSTRUCCIONES</button> <!-- boton de instrucciones -->
+ <section id= "instrucciones">
+  <button id="button-inst">INSTRUCCIONES</button> <!-- boton de instrucciones -->
   <p id="puntos"></p> <!-- al hacer click aparece este texto -->
-</Section>
+</section>
 
 <div id= "password">
   <h3>Ingresa el número</h3>
     <input id= "name" type = "name" placeholder="Escribe tu número">
-    <button id= "enviar" onclick="numeroCifrado()">Enviar</button>
 </div>
 
 <!-- 1er cuadro para escribir texto -->
 <div class="cuadroUno" id=inputUno> <!-- id de class para nombrar -  -->
   <h3 class="escribe">Escribe tu texto</h3>
   <textarea id="textoUno" placeholder="Escribe tu mensaje"></textarea> <!-- para poder escribir mas texto -  -->
-  <button id= "enviarUno" onclick="funcionUno()">Enviar</button>
+  <button id= "enviarUno" onclick="funcionUno()">Enciptar</button>
   <textarea id="textoCifrado" placeholder="Mi texto"></textarea>
 </div>
 
@@ -36,11 +35,11 @@
   <h3 class="copia">Copia aquí tu texto Cifrado</h3>
   <textarea id="textoDos" placeholder="Copia tu texto" required></textarea> <!-- para poder escribir mas texto -  -->
   <button id= "enviarDos" onclick="funcionDos()">Enviar</button>
-  <textarea id="textoDescifrado" placeholder="Mi texto"></textarea>
+<!--  <textarea id="textoDescifrado" placeholder="Mi texto"></textarea>-->
 </div>  
 
 <script>
-  
+    
 </script>
 
   <div id="root"></div>
