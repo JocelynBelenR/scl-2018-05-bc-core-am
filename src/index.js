@@ -7,7 +7,6 @@ window.onload = function () {
   }) //Click del Boton e instrucciones 
 
   const numero = document.getElementById("password"); /*llamar al cuadro donde ingreso el numero*/
-
   const strboton = document.getElementById("enviarUno"); /*llamar al boton de enviar para el primer texto*/
 
 
@@ -42,7 +41,9 @@ document.getElementById(textoCifrado);
 
 /*(x+n)%26 = (posicion de la letra - valor fijo) sacar el residuo de %26
 Ejemplo con A
-(x-65+n)%26+65 ...n°letra ascii-ubicacion ascii+valor fijo%26 + 65
+
+(x-65+n)%26+65 ...n°letra ascii-ubicacion ascii+valor fijo(offset)%26 + 65 (x =declarar esa variable)
+
  ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z") 
 */
 

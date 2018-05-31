@@ -17,27 +17,32 @@
   <p id="puntos"></p> <!-- al hacer click aparece este texto -->
 </section>
 
-<div id= "password">
+<div id= "numKey">
   <h3>Ingresa el número</h3>
-    <input id= "name" type = "name" placeholder="Escribe tu número">
+    <input id= "num" type = "num" placeholder="Escribe tu número">
 </div>
 
 <!-- 1er cuadro para escribir texto -->
-<div class="cuadroUno" id=inputUno> <!-- id de class para nombrar -  -->
+<div class="cuadroUno"> <!-- id de class para nombrar -  -->
+
   <h3 class="escribe">Escribe tu texto</h3>
+
   <textarea id="textoUno" placeholder="Escribe tu mensaje"></textarea> <!-- para poder escribir mas texto -  -->
   <button id= "enviarUno" onclick="funcionUno()">Enciptar</button>
-  <textarea id="textoCifrado" placeholder="Mi texto"></textarea>
+  
+  <button id= "enviarDos" onclick="funcionDos()">Desenciptar</button>
+  <textarea id="textoDos" placeholder="Mi texto"></textarea>
+
 </div>
 
-<!-- 2do cuadro para escribir texto -->
-<div class="cuadroDos" id=inputDos> <!-- id de class para nombrar -  -->
+<!-- 2do cuadro para escribir texto 
+<div class="cuadroDos"> <!-- id de class para nombrar -  
   <h3 class="copia">Copia aquí tu texto Cifrado</h3>
   <textarea id="textoDos" placeholder="Copia tu texto" required></textarea> <!-- para poder escribir mas texto -  -->
-  <button id= "enviarDos" onclick="funcionDos()">Enviar</button>
-<!--  <textarea id="textoDescifrado" placeholder="Mi texto"></textarea>-->
+ <!-- <button id= "enviarDos" onclick="funcionDos()">Enviar</button> -->
+<!--  <textarea id="textoDescifrado" placeholder="Mi texto"></textarea>
 </div>  
-
+-->
 <script>
     
 </script>
