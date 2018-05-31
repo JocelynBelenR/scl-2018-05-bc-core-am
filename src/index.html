@@ -20,23 +20,29 @@
 <div id= "password">
   <h3>Ingresa el número</h3>
     <input id= "name" type = "name" placeholder="Escribe tu número">
-    <button id= "send" onclick="myFunction()">Enviar</button>
+    <button id= "enviar" onclick="numeroCifrado()">Enviar</button>
 </div>
 
-<!-- cuadro para escribir texto -->
-<div class="cuadro-uno" id=user-input> <!-- id de class para nombrar -  -->
-  <h3>Escribe tu texto</h3>
-  <textarea id="input-textuno" placeholder="Escribe tu mensaje" required></textarea> <!-- para poder escribir mas texto -  -->
-<button id= "send-uno" onclick="myFunction()">Enviar</button>
+<!-- 1er cuadro para escribir texto -->
+<div class="cuadroUno" id=inputUno> <!-- id de class para nombrar -  -->
+  <h3 class="escribe">Escribe tu texto</h3>
+  <textarea id="textoUno" placeholder="Escribe tu mensaje"></textarea> <!-- para poder escribir mas texto -  -->
+  <button id= "enviarUno" onclick="funcionUno()">Enviar</button>
+  <textarea id="textoCifrado" placeholder="Mi texto"></textarea>
 </div>
 
+<!-- 2do cuadro para escribir texto -->
+<div class="cuadroDos" id=inputDos> <!-- id de class para nombrar -  -->
+  <h3 class="copia">Copia aquí tu texto Cifrado</h3>
+  <textarea id="textoDos" placeholder="Copia tu texto" required></textarea> <!-- para poder escribir mas texto -  -->
+  <button id= "enviarDos" onclick="funcionDos()">Enviar</button>
+  <textarea id="textoDescifrado" placeholder="Mi texto"></textarea>
+</div>  
 
-<div class="cuadro-dos" id=user-input> <!-- id de class para nombrar -  -->
-  <h3>Este es tu texto</h3>
-  <textarea id="input-txtdos" placeholder="Escribe tu mensaje" required></textarea> <!-- para poder escribir mas texto -  -->
-</div>
+<script>
+  
+</script>
 
- <!-- <img src="degrade.png">-->
   <div id="root"></div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>

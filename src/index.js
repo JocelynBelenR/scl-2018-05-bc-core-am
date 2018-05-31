@@ -5,3 +5,9 @@ btn.addEventListener('click', function(){
     txt.innerHTML = "<p> Aqui va detallada cada instruccion </p>";
 }) //Click del Boton e instrucciones
 
+function cifrar (inputUno) {
+
+    document.getElementById(textoCifrado);
+}
+
+
