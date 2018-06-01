@@ -51,12 +51,12 @@ div { /*todo centrado*/
   text-align: center;
 }
 
-input {
+input { /*espacios en la caja de offset*/
   padding: 10px;  
   margin: 5px;
 }
 
-textarea {
+textarea { /*espacios en la caja de texto*/
   padding: 20px 40px; 
   margin: 8px;
 }
