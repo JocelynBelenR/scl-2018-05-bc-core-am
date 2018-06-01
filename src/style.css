@@ -1,98 +1,47 @@
 /* Acá va tu código */
- body { 
-    background-image: url("../src/img/flores.jpg");
-  } 
+body { 
+  background-image: url("../src/img/flores.jpg");
+} 
 
-  .titular {
-    background-color: #AAC2C9;
-    display: inline-block; /*tipo de caja: en linea y por bloque */
-    width: 1280px;  /*ancho de caja */
-    padding: 25px;  /*relleno, espacio libre entre contenido */
-    margin: 10px;
-    text-align: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  }
+.titular {
+  background-color: #AAC2C9;
+  display: inline-block; /*tipo de caja: en linea y por bloque */
+  width: 1325px;  /*ancho de caja */
+  padding: 7px;  /*relleno, espacio libre entre contenido */
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
 
-  .bajada {
-    background-color: rgb(249, 251, 253);
-    display: inline-block;
-    width: 1280px; 
-    padding: 25px;
-    margin: 5px 10px;
-    text-align: center;
-    color: #AAC2C9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+.bajada {
+  background-color: rgb(249, 251, 253);
+  display: inline-block;
+  width: 1325px; 
+  padding: 7px;
+  margin: 5px;
+  text-align: center;
+  color: #AAC2C9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-  #instrucciones {
-    text-align: center;
-   }
-  
-   #button-inst {
-    color: rgb(152, 182, 190);
-    padding: 10px;  
-    margin: 10px;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-   }
+#instrucciones {
+  text-align: center;
+ }
 
-   #puntos {
-    text-align: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #AAC2C9;
-    margin: 10px;
-   }
+ #button-inst {
+  color: rgb(152, 182, 190);
+  padding: 10px;  
+  margin: 10px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+ }
 
-   #numKey {
-    text-align: center;
-    color: white;
-    padding-top: 1px;
-    padding-bottom: 10px;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: #AAC2C9;
-  }
+ #puntos {
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #AAC2C9;
+  margin: 10px;
+ }
 
-   .cuadroUno{
-    color: white;
-    text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  #textoUno{
-  block-size: 100px;
-  }
-
-  .escribe{
-    background-color: rgb(249, 251, 253);
-    display: inline-block;
-    width: 1280px; 
-    padding: 15px;
-    margin: 5px 10px;
-    text-align: center;
-    color: #AAC2C9;
-  }
-
-  .cuadroDos{
-    color: white;
-    text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  #textoDos{
-    block-size: 100px;
-    }
-
-  .copia{
-    background-color:#AAC2C9;
-    display: inline-block;
-    width: 1280px; 
-    padding: 15px;
-    margin: 5px 10px;
-    text-align: center;
-    color: rgb(249, 251, 253);
-  }
-
- 
