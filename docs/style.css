@@ -1,0 +1,87 @@
+/* Mi código */
+body { 
+  background-image: url("../src/img/flores.jpg"); /*image*/
+} 
+
+.titular {
+  background-color: rgb(134, 177, 190);
+  display: inline-block; /*tipo de caja: en linea y por bloque */
+  width: 1325px;  /*ancho de caja */
+  padding: 7px;  /*relleno, espacio libre entre contenido */
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.bajada {
+  background-color: rgb(249, 251, 253);
+  display: inline-block;
+  width: 1325px; 
+  padding: 7px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(151, 184, 194);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#instrucciones {
+  text-align: center;
+}
+
+#button-inst { /*boton instrucciones*/
+  color: rgb(151, 184, 194);
+  padding: 10px;  
+  margin: 10px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#puntos { /*texto de instrucciones*/
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color:rgb(135, 176, 189);
+  margin: 5px;
+  padding: 7px; 
+}
+
+div { /*todo centrado*/
+  text-align: center;
+}
+
+input { /*espacios en la caja de offset*/
+  padding: 10px;  
+  margin: 5px;
+}
+
+textarea { /*espacios en la caja de texto*/
+  padding: 20px 40px; 
+  margin: 8px;
+}
+
+#resultadoFinal { /*texto resultado*/
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(151, 184, 194);
+  font-size: 30px;/*tamaño letra*/
+  padding: 7px;  /*relleno, espacio libre entre contenido */
+  margin: 5px;
+}
+
+#encode { /*boton encode*/
+  color: rgb(135, 176, 189);
+  padding: 10px;  
+  margin: 10px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#decode { /*boton decode*/
+  color:rgb(135, 176, 189);
+  padding: 10px;  
+  margin: 10px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
