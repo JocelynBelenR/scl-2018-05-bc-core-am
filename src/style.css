@@ -1,5 +1,8 @@
 /* Acá va tu código */
 body { 
+  display: block;
+  text-align: center;
+  center
   background-image: url("../src/img/flores.jpg");
 } 
 
@@ -25,23 +28,23 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ 
 #instrucciones {
   text-align: center;
- }
+}
 
- #button-inst {
+#button-inst {
   color: rgb(152, 182, 190);
   padding: 10px;  
   margin: 10px;  
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
- }
+}
 
- #puntos {
+#puntos {
   text-align: center;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #AAC2C9;
   margin: 10px;
- }
-
+}
