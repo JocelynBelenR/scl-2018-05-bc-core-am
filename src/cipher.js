@@ -1,4 +1,5 @@
 window.cipher = {
+    
   //encode = para cifrar el texto
   encode: (offset, str) => { //numero y texto - funcion
       let message = ''; // variable vacia por el mensaje que se va a escribir

@@ -2,7 +2,8 @@
 var btn = document.getElementById("button-inst");
 var txt = document.getElementById ("puntos");//Texto detallado
 btn.addEventListener('click', function(){
-    txt.innerHTML = "<p> Aqui va detallada cada instruccion </p>";
+    txt.innerHTML = "<p>Ingresar un número que corresponde a cuantas posiciones se movera. Luego ingresa tu texto. Y al final presiona cifra o descifrar según el caso.</p>";
+    
 }) //Click del Boton e instrucciones
 
 document.getElementById("encode").addEventListener("click", () => {

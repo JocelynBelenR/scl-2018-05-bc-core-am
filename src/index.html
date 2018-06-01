@@ -10,31 +10,35 @@
   <body>
     <!--Aca va mi titulo, el header-->
         <h1 class="titular">CIFRADO CESAR</h1> 
+
     <!--Aca va mi bajada de titulo, el header-->
         <h3 class="bajada">En esta página podrás escribir tu mensaje y este será cifrado o descifrado según el código Cesar</h3>
-     <!-- boton para instrucciones y los textos en el -->
-     <section id="instrucciones">
+    
+        <!-- boton para instrucciones y los textos en el -->
+    <section id="instrucciones">
         <button id="button-inst">INSTRUCCIONES</button> <!-- boton de instrucciones -->
         <p id="puntos"></p> <!-- al hacer click aparece este texto -->
     </section>
+    
     <!--Cuadro de texto-->
     <div id="posicion">
-      <input id="offset" type="number" name="numkey" placeholder="Escribe el número" value=""><br/>
+      <input id="offset" type="number" name="number" placeholder="Escribe el número" value=""><br/>
     </div>  <!--caja donde escribir el numero-->
+
     <div id="cajaTexto">
       <textarea id="mensaje" placeholder="Escribe tu mensaje" required></textarea> <!-- para poder escribir mas texto -  -->
     </div><!--area de texto donde se puede escribir el mendaje-->
-      <div id="resultadoFinal">
-        <span id="result"></span>  
-      </div>
-    </section>
-      <!--Cuadro de botones-->
-    <section class="losBotones">
-      <div id="botones">
-        <button class="boton" id="encode">Cifrar</button>
-        <button class="boton" id="decode">Descifrar</button>
-      </div>
-    </section>    
+    
+    <!--Resultado-->
+    <div id="resultadoFinal">
+      <span id="result"></span>  
+    </div> 
+
+    <!--Cuadro de botones-->
+    <div id="botones">
+      <button class="boton" id="encode">Cifrar</button>
+      <button class="boton" id="decode">Descifrar</button>
+    </div>  
 
     <div id="root"></div>
     <script src="cipher.js"></script>
