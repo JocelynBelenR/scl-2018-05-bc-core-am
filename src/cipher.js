@@ -19,8 +19,23 @@ window.cipher = {
     return message; //da el mesaje
   },
   //numero y texto - funcion  //forma y resultado segun los datos anteriores
-  decode: (offset, str) => {
-    return window.cipher.encode((26 - offset), str);
-  }
-
+  
+  decode: (str, offset) => {
+    let resultDecode = '';
+    for (let i = 0; i < str.length; i++) {
+      let character = str[i];
+      if (character.match(/[a-z]/i)) {
+        let code = str.charCodeAt(i);
+        if ((code >= 65) && (code <= 90)) {
+          character = String.fromCharCode(((code - 65 - parseInt(offset) + 52) % 26) + 65);
+        }
+        if ((code >= 97) && (code <= 122)) {
+          character = String.fromCharCode(((code - 97 - parseInt(offset) + 52) % 26) + 97);
+        }
+      }
+      resultDecode += character;
+    }
+    return resultDecode;
+  },
+   
 }
